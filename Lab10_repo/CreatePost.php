@@ -33,7 +33,7 @@
             $mysqli->close();
         }
     }
-    //Render the create post page and show message 
-    include "./creat_post.html";
+    //Render the create post page and show message
+    include "./CreatePost.html";
     echo $message;
 ?>

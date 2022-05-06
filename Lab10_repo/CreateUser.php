@@ -24,6 +24,6 @@
         $mysqli->close();
     }
 
-    include "./createUser.html";
+    include "./CreateUser.html";
     echo $message;
 ?>

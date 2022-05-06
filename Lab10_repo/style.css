@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: "Gill Sans", sans-serif;
+    font-family: Garamond, sans-serif;
 }
 
 #landingPage {
-    margin-left: 25%;
+    margin-left: 40%;
     padding: 1px 16px;
 }
 
@@ -18,25 +18,35 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
+    width: 10%;
+    background-color: lightblue;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
 
+li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 li a.active {
-    background-color: lightskyblue;
+    background-color: forestgreen;
+    overflow: auto;
     color: white;
 }
 
-li a:hove:not(.active) {
+li a:hover:not(.active) {
     background-color: #555;
     color: white;
+    font-size: 30px;
 }
 
 .adminSublist {
-    font-size: 18px;
+    font-size: 14px;
     text-align: right;
 }
 
@@ -66,4 +76,3 @@ table tr:nth-child(even) {
 h2 {
     margin-left: 25%;
 }
-

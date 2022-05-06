@@ -8,13 +8,13 @@
 </head>
 <body>
     <ul id="navbar">
-        <li><a onclick="location.href='.index.html'"><strong>Home</strong></a></li>
+        <li><a onclick="location.href='./index.html'"><strong>Home</strong></a></li>
         <li><a class="active">Create User</a></li>
         <li><a onclick="location.href='./CreatePost.html'">Create Post</a></li>
         <li><a onclick="location.href='./Admin.html'">Admin</a></li>
     </ul>
     <div id="landingPage">
-        <form id="createUser" action="./createUser.php" method="post">
+        <form id="createUser" action="./CreateUser.php" method="POST">
             <label for="newUser">New Username:</label>
             <input type="text" id="newUser" name="newUser">
             <input type="submit" value="Create User" onclick="return checkNewUser()">
