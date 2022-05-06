@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Garamond, sans-serif;
+}
+
+#landingPage {
+    margin-left: 40%;
+    padding: 1px 16px;
+}
+
+#userPosts {
+    float: right;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: lightblue;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a.active {
+    background-color: forestgreen;
+    overflow: auto;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    font-size: 30px;
+}
+
+.adminSublist {
+    font-size: 14px;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#usersTable {
+    width: 10%;
+}
+
+#usersPosts {
+    margin-left: 40%;
+    padding: 1px 16px;
+    width: 50%;
+}
+
+#postTable {
+    width: 50%;
+}
+
+h2 {
+    margin-left: 25%;
+}
