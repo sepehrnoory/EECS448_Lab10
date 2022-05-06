@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#landingPage {
+    margin-left: 25%;
+    padding: 1px 16px;
+}
+
+#userPosts {
+    float: right;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a.active {
+    background-color: lightskyblue;
+    color: white;
+}
+
+li a:hove:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.adminSublist {
+    font-size: 18px;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#usersTable {
+    width: 10%;
+}
+
+#usersPosts {
+    margin-left: 25%;
+    padding: 1px 16px;
+    width: 50%;
+}
+
+#postTable {
+    width: 50%;
+}
+
+h2 {
+    margin-left: 25%;
+}
+

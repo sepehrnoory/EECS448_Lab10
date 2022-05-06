@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lab 10 - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <ul id="navbar">
+        <li><a onclick="location.href='.index.html'"><strong>Home</strong></a></li>
+        <li><a onclick="location.href='./CreateUser.html'">Create User</a></li>
+        <li><a onclick="location.href='./CreatePost.html'">Create Post</a></li>
+        <li><a class="active">Admin</a></li>
+        <li><a class="adminSublist" onclick="location.href='./ViewUsers.html'">View Users</a></li>
+        <li><a class="adminSublist" onclick="location.href='./ViewPosts.html'">View Posts</a></li>
+        <li><a class="adminSublist" onclick="location.href='./DeletePosts.html'">Delete Posts</a></li>
+    </ul>
+    <div id="landingPage">
+        <h1>View User Posts</h1>
+        <div>
+            <?php include './loadUsers.php';?>
+        </div>
+    </div>
+</body>
+</html>
